@@ -13,33 +13,15 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className={styles.grid}>
-          <a href="/task-1.js" className={styles.card}>
+          <a href="/task-1" className={styles.card}>
             <h2> Task 1 </h2>
             <p>Front End </p>
           </a>
 
-          <a href="/task-2.js" className={styles.card}>
+          <a href="/task-2" className={styles.card}>
             <h2> Task 2 </h2>
             <p>Backend</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          </a>          
         </div>
       </main>
 

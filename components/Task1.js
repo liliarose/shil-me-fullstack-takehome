@@ -1,3 +1,4 @@
+import Builder from "./builder/Builder"
 export default function Task1(props) {
 
    const Builder1 = {
@@ -25,6 +26,7 @@ export default function Task1(props) {
       components: [
          {
             type: "input-long-text",
+            name: "proposal",
             placeholder: "I propose that we...",
             title: "Your proposal",
             description: null,
@@ -35,6 +37,7 @@ export default function Task1(props) {
          },
          {
             type: "input-number",
+            name: "amount pledged",
             placeholder: 42,
             title: "Value attached",
             description: "This is the amount of value you're pledging to this cause in ETH.",
@@ -67,6 +70,7 @@ export default function Task1(props) {
       components: [
          {
             type: "input-number",
+            name: "NFTs",
             placeholder: 42,
             title: "Number of NFTs",
             description: null
